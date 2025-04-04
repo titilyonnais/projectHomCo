@@ -1,0 +1,384 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    height: 123px;
+    background-color: #959595;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-weight: 600;
+    font-size: 15px;
+    border-bottom: 1px solid #fff;
+}
+
+.logoLink img {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    gap: 75px;
+    padding-right: 50px;
+}
+
+.navListLink {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.hero {
+    background-color: #959595;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.hero h1 {
+    font-weight: 900;
+    color: white;
+    font-size: 60px;
+    width: 48%;
+    text-transform: uppercase;
+    letter-spacing: 7%;
+}
+
+.hero p {
+    font-weight: 400;
+    color: white;
+    font-size: 17px;
+    width: 48%;
+    margin-top: 10px;
+}
+
+.hero a {
+    text-decoration: none;
+    color: white;
+    background-color: #757575;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 25px 20px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
+.servicesOffer {
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px;
+}
+
+.servicesOffer h2 {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: black;
+}
+
+.servicesOfferContainer {
+    display: flex;
+    margin-top: 25px;
+}
+
+.servicesOfferText {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    height: 300px;
+    padding: 70px 30px;
+}
+
+#TextBlack {
+    background-color: #1B1717;
+    ;
+}
+
+#TextGrey {
+    background-color: #757575;
+}
+
+.servicesOfferText h4 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.servicesOfferText p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+
+
+.methodologies {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px;
+}
+
+.methodologies h2 {
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #1B1717;
+}
+
+.methodologiesContainer {
+    margin-top: 25px;
+    display: flex;
+}
+
+.methodologiesText {
+    color: white;
+    height: 100%;
+    padding: 70px 30px;
+}
+
+.methodologiesText img {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+}
+
+#methodologiesMargin {
+    background-color: #757575;
+    margin: 0 30px;
+}
+
+#methodologiesBorder {
+    border: 1px solid #DADADA;
+    background-color: transparent;
+}
+
+#methodologiesBorder h4 {
+    color: #1B1717;
+}
+
+#methodologiesBorder p {
+    color: #6E6E6E;
+}
+
+.methodologiesText h4 {
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.methodologiesText p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+.projects {
+    width: 100%;
+    height: 55vh;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projectsContainer {
+    display: flex;
+}
+
+.imageContainer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C4C4C4;
+    margin: 0 15px;
+}
+
+.imageContainer img {
+    width: 175px;
+    height: 175px;
+}
+
+.projects h2 {
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #1B1717;
+    margin-bottom: 30px;
+}
+
+.testimonials {
+    margin-bottom: 40px;
+}
+
+.testimonialsWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.iframeYoutube,
+.container {
+    width: 50%;
+}
+
+.container {
+    padding: 20px;
+}
+
+.testimonialsContainer {
+    margin-top: auto;
+    padding-left: 30px;
+}
+
+.testimonialsContainer h2 {
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #1B1717;
+    margin-bottom: 30px;
+}
+
+.testimonialsContainer p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #6e6e6e;
+    line-height: 100%;
+    margin-top: 50px;
+}
+
+.testimonialsNav {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.testimonialsNavLeft {
+    margin-right: 100px;
+}
+
+.testimonialsNav ul {
+    list-style: none;
+}
+
+.testimonialsNav img {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+}
+
+.testimonialsNav a {
+    text-decoration: none;
+    color: #1B1717;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 25vh;
+}
+
+.footerInfos {
+    width: 50%;
+    padding: 50px;
+}
+
+.footerInfos img {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.footerInfos h3 {
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 7%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footerInfos p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.pagesLinkContainer {
+    display: flex;
+    align-items: center;
+}
+
+.LinkContainer1 ul {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.LinkContainer1 li {
+    margin-bottom: 10px;
+}
+
+.LinkContainer1 a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.LinkContainer2 ul {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.LinkContainer2 li {
+    margin-bottom: 10px;
+}
+
+.LinkContainer2 a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
